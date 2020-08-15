@@ -1,0 +1,708 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .navbar-area ul li {
+        font-size: 12px;
+        padding: 32px 10px 26px 10px;
+    }
+    .support-btn .boxed-btn {
+        width: 140px;
+        font-size: 12px;
+        padding: 18px 25px;
+    }
+    .header-area .header-inner-content h1 {
+        font-size: 75px;
+    }
+    .features-area .left-content h2,
+    .intro-video-area .left-content h2 {
+        font-size: 45px;
+    }
+    .contact-area .contact-form-wrapper .contact-inner-wrapper h4 {
+        font-size: 35px;
+    }
+    .footer-area .footer-inner-wrapper .footer-top ul li {
+        display: inline-block;
+        padding: 25px 16px;
+    }
+    .intro-video-area .right-content .thumb {
+        position: absolute;
+        right: 0;
+        top: 150px;
+    }
+    .offer-area .single-offer-box .content h5 {
+        font-size: 18px;
+    }
+    .features-area .left-content ul li {
+        font-size: 13px;
+    }
+    .navbar-area.nav-fixed {
+        display: none;
+    }
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .primary-menu {
+        display: none;
+    }
+    .slicknav_menu {
+        display: block;
+    }
+    .responsive-menu {
+        position: relative;
+    }
+    .navbar-area .slicknav_nav {
+        padding-top: 4px;
+    }
+    .navbar-area .slicknav_menu {
+        background: transparent;
+        position: absolute;
+        left: 0;
+        top: 10px;
+    }
+    .navbar-area .slicknav_btn {
+        background: transparent;
+        text-shadow: none;
+        margin-bottom: 40px;
+        float: left;
+    }
+    .navbar-area .slicknav_menu .slicknav_icon-bar {
+        background: #fff;
+        box-shadow: none;
+        width: 30px;
+        height: 3px;
+        margin-bottom: 5px;
+    }
+    .navbar-area .navbar-area .slicknav_menu.nav-fixed {
+        position: fixed;
+        z-index: 99;
+        top: 10px;
+    }
+    .navbar-area .navbar-area .slicknav_nav {
+        width: 100%;
+    }
+    .navbar-area .navbar-area ul.slicknav_nav {
+        background: #F6F6F6;
+    }
+    .navbar-area .navbar-area li.slicknav_collapsed.slicknav_parent a i {
+        display: none;
+    }
+    .navbar-area .slicknav_nav .slicknav_row,
+    .navbar-area .slicknav_nav a {
+        margin: 0;
+        border-radius: 0;
+        text-transform: uppercase;
+    }
+    .navbar-area .slicknav_nav a:hover,
+    .navbar-area .slicknav_nav .slicknav_row:hover {
+        background: transparent;
+        color: #fff;
+    }
+    .navbar-area .slicknav_btn.slicknav_open {
+        transform: rotate(30deg);
+    }
+    .navbar-area .slicknav_btn .slicknav_icon-bar {
+        transition: .3s;
+    }
+    .navbar-area .slicknav_btn.slicknav_open .slicknav_icon-bar:first-child {
+        display: none;
+    }
+    .navbar-area .slicknav_btn.slicknav_open .slicknav_icon-bar:nth-child(2) {
+        transform: rotate(110deg);
+    }
+    .navbar-area .slicknav_btn.slicknav_open .slicknav_icon-bar:nth-child(3) {
+        transform: rotate(9deg);
+        margin-top: -7px;
+    }
+    .navbar-area .slicknav_menu li a i {
+        display: none;
+    }
+    .navbar-area .slicknav_btn {
+        margin-bottom: 26px;
+    }
+    .navbar-area ul.slicknav_nav li a,
+    .navbar-area ul.slicknav_nav li ul li {
+        padding: 10px 20px;
+    }
+    .navbar-area ul.slicknav_nav li {
+        display: block;
+        width: 300px;
+        margin-right: 0;
+        padding-right: 0;
+        background: #F6F6F6;
+        z-index: 9;
+        border-bottom: 0;
+        padding: 0;
+    }
+    .navbar-area ul.slicknav_nav li:first-child {
+        margin-left: 0;
+    }
+    .navbar-area ul.slicknav_nav li.active,
+    .navbar-area ul.slicknav_nav li:hover {
+        background-color: #58B947;
+        color: #fff;
+    }
+    .navbar-area .slicknav_nav a {
+        color: #333;
+    }
+    .navbar-area .slicknav_nav a:hover,
+    .navbar-area .navbar-area .slicknav_nav .slicknav_row:hover {
+        background: transparent;
+    }
+    .navbar-area li.slicknav_parent.slicknav_open ul {
+        position: initial;
+        visibility: visible;
+        display: block;
+        opacity: 1;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        border: none;
+    }
+    .navbar-area li.active.slicknav_parent.slicknav_open ul.sub-menu li,
+    .navbar-area li.slicknav_parent.slicknav_open ul.sub-menu li {
+        padding: 0;
+        padding-left: 20px;
+    }
+    .support-right {
+        text-align: left;
+    }
+    .support-btn {
+        text-align: left;
+    }
+    .support-btn .boxed-btn {
+        width: 120px;
+        padding: 10px 15px;
+        margin-left: -15px;
+        font-size: 13px;
+    }
+    .header-area .header-bottom {
+        position: inherit;
+    }
+    .header-area .header-bottom .single-header-bottom-box.green {
+        position: inherit;
+        top: 0;
+    }
+    .features-area .right-content {
+        margin-top: 50px;
+    }
+    .header-area .header-inner-content h1 {
+        font-size: 68px;
+    }
+    .features-area {
+        padding-top: 100px;
+    }
+    .pricing-table-area .single-price-plan {
+        margin-bottom: 30px;
+    }
+    .remove-col-padding {
+        padding: 0 15px;
+    }
+    .clients-area {
+        padding-top: 250px;
+    }
+    .logo-carousel .owl-nav button[type=button] {
+        display: none;
+    }
+    .footer-area .footer-inner-wrapper .footer-top ul li {
+        padding: 5px;
+    }
+    .footer-area .footer-inner-wrapper .footer-top ul li:first-child {
+        padding: 0px;
+        margin: 0px;
+        display: inline-block;
+        padding: 5px;
+        padding-top: 0;
+        width: 110px;
+        margin: 5px;
+        margin-top: 0;
+        margin-bottom: 8px;
+    }
+    .footer-area .footer-inner-wrapper .footer-top {
+        padding: 20px 0;
+    }
+    .widget {
+        margin-bottom: 50px;
+    }
+    .header-area .header-bottom .single-header-bottom-box {
+        margin: 0 -15px;
+    }
+    .header-area {
+        padding-bottom: 0px;
+    }
+    .navbar-area.nav-fixed {
+        position: inherit;
+    }
+}
+
+@media only screen and (max-width: 990px) and (min-width: 770px) {
+    .header-area .header-bottom .container {
+        width: 100%;
+    }
+    .support-btn {
+        display: none;
+    }
+    .support-right {
+        text-align: right;
+    }
+    .remove-col-padding {
+        padding: 0;
+        margin: 0 -15px;
+    }
+    .support-btn.hidden-desktop {
+        display: block;
+        padding: 20px 0;
+        text-align: right;
+        padding-right: 15px;
+    }
+    .navbar-area .navbar-right-area ul {
+        display: none;
+    }
+    .features-area .right-content img {
+        display: block;
+        margin: auto;
+    }
+    .footer-area .footer-inner-wrapper {
+        padding-bottom: 30px;
+    }
+    .pricing-table-area .remove-col-padding {
+        margin: 0;
+    }
+    .footer-area .footer-inner-wrapper .footer-top ul li:first-child {
+        margin-left: 10px;
+    }
+    .menu-none{
+        display:none;
+    }
+	
+}
+
+/* Mobile Layout */
+
+@media only screen and (max-width: 768px) {
+    .primary-menu {
+        display: none;
+    }
+    .navbar-area .slicknav_nav a {
+        color: #333;
+    }
+    .slicknav_menu {
+        display: block;
+    }
+    .responsive-menu {
+        position: relative;
+    }
+    .navbar-area .slicknav_nav {
+        padding-top: 4px;
+    }
+    .navbar-area .slicknav_menu {
+        background: transparent;
+        position: absolute;
+        left: 0;
+        top: 5px;
+    }
+    .navbar-area .slicknav_btn {
+        background: transparent;
+        text-shadow: none;
+        margin-bottom: 40px;
+    }
+    .navbar-area .slicknav_menu .slicknav_icon-bar {
+        background: #fff;
+        box-shadow: none;
+        width: 30px;
+        height: 3px;
+        margin-bottom: 5px;
+    }
+    .navbar-area .navbar-area .slicknav_menu.nav-fixed {
+        position: fixed;
+        z-index: 99;
+        top: 10px;
+    }
+    .navbar-area .navbar-area .slicknav_nav {
+        width: 100%;
+    }
+    .navbar-area .navbar-area ul.slicknav_nav {
+        background: #F6F6F6;
+    }
+    .navbar-area .navbar-area li.slicknav_collapsed.slicknav_parent a i {
+        display: none;
+    }
+    .navbar-area .slicknav_nav .slicknav_row,
+    .navbar-area .slicknav_nav a {
+        margin: 0;
+        border-radius: 0;
+        text-transform: uppercase;
+    }
+    .navbar-area .slicknav_nav a:hover,
+    .navbar-area .slicknav_nav .slicknav_row:hover {
+        background: transparent;
+        color: #fff;
+    }
+    .navbar-area .slicknav_btn.slicknav_open {
+        transform: rotate(30deg);
+    }
+    .navbar-area .slicknav_btn .slicknav_icon-bar {
+        transition: .3s;
+    }
+    .navbar-area .slicknav_btn.slicknav_open .slicknav_icon-bar:first-child {
+        display: none;
+    }
+    .navbar-area .slicknav_btn.slicknav_open .slicknav_icon-bar:nth-child(2) {
+        transform: rotate(110deg);
+    }
+    .navbar-area .slicknav_btn.slicknav_open .slicknav_icon-bar:nth-child(3) {
+        transform: rotate(9deg);
+        margin-top: -7px;
+    }
+    .navbar-area .slicknav_menu li a i {
+        display: none;
+    }
+    .navbar-area .slicknav_btn {
+        margin-bottom: 26px;
+        float: none;
+    }
+    .navbar-area ul.slicknav_nav li a,
+    .navbar-area ul.slicknav_nav li ul li {
+        padding: 10px 20px;
+    }
+    .navbar-area ul.slicknav_nav li {
+        display: block;
+        width: 300px;
+        margin-right: 0;
+        padding-right: 0;
+        background: #F6F6F6;
+        z-index: 9;
+        border-bottom: 0;
+        padding: 0;
+    }
+    .navbar-area ul.slicknav_nav li:first-child {
+        margin-left: 0;
+    }
+    .navbar-area ul.slicknav_nav li.active,
+    .navbar-area ul.slicknav_nav li:hover {
+        background-color: #58B947;
+        color: #fff;
+    }
+    .navbar-area .slicknav_nav a:hover,
+    .navbar-area .navbar-area .slicknav_nav .slicknav_row:hover {
+        background: transparent;
+    }
+    .navbar-area li.slicknav_parent.slicknav_open ul {
+        position: initial;
+        visibility: visible;
+        display: block;
+        opacity: 1;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        border: none;
+    }
+    .navbar-area li.active.slicknav_parent.slicknav_open ul.sub-menu li,
+    .navbar-area li.slicknav_parent.slicknav_open ul.sub-menu li {
+        padding: 0;
+        padding-left: 20px;
+    }
+    .slicknav_btn.slicknav_open {
+        float: left;
+    }
+    .navbar-area .slicknav_nav {
+        padding-top: 4px;
+        margin-left: -20px;
+        width: 273px;
+    }
+    .support-right {
+		text-align: center;
+		margin-top: 20px;
+    }
+    .support-btn {
+        text-align: left;
+    }
+    .header-area .header-bottom {
+        position: inherit;
+    }
+    .header-area .header-bottom .single-header-bottom-box.green {
+        position: inherit;
+        top: 0;
+    }
+    .pricing-table-area .single-price-plan {
+        margin-bottom: 30px;
+    }
+    .remove-col-padding {
+        padding: 0 15px;
+    }
+    .logo-carousel .owl-nav button[type=button] {
+        display: none;
+    }
+    .footer-area .footer-inner-wrapper .footer-top {
+        padding: 20px 0;
+    }
+    .widget {
+        margin-bottom: 50px;
+    }
+    .header-area .header-bottom .single-header-bottom-box {
+        margin: 0 -15px;
+    }
+    .header-area {
+        padding-bottom: 0px;
+    }
+    .support-right .single-support-box {
+        margin-left: 20px;
+    }
+    .support-btn {
+        margin-top: 30px;
+    }
+    .navbar-area .slicknav_menu {
+        z-index: 2;
+    }
+    .header-area .header-inner-content h1 {
+        font-size: 45px;
+    }
+    .header-area .header-inner-content p {
+        font-size: 16px;
+    }
+    .header-area .header-inner-content p br {
+        display: none;
+    }
+    .features-area {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .section-title h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .filter-area-left {
+        display: block;
+    }
+    .contact-area .contact-form-wrapper .contact-inner-wrapper {
+        padding: 20px;
+        padding-bottom: 40px;
+    }
+    .contact-area .contact-form-wrapper .contact-inner-wrapper input[type=submit] {
+        font-size: 14px;
+    }
+    .clients-area h2 {
+        font-size: 30px;
+    }
+    .footer-area .footer-inner-wrapper .footer-top ul li img {
+        display: block;
+        margin: 0 auto;
+    }
+    .footer-area .footer-inner-wrapper .footer-top ul li {
+        display: block;
+    }
+    .footer-area .footer-inner-wrapper .footer-top ul li:first-child {
+        padding-left: 15px;
+    }
+    .navbar-area .navbar-right-area ul li {
+        padding: 30px 5px;
+        margin-left: 0px;
+    }
+    .header-area .header-inner-content .btn-wrapper .boxed-btn {
+        font-size: 12px;
+        padding: 15px;
+        width: 160px;
+    }
+    .back-to-top {
+        display: none;
+    }
+    .navbar-area.nav-fixed {
+        position: inherit;
+    }
+    .intro-video-area .left-content h2 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .contact-area .contact-form-wrapper .contact-inner-wrapper h4 span {
+        font-size: 23px;
+        line-height: 33px;
+    }
+    .contact-area .contact-form-wrapper .contact-inner-wrapper h4 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .features-area .right-content {
+        margin-top: 50px;
+    }
+    .support-bar .support-btn,
+    .navbar-area .navbar-right-area ul {
+        display: none;
+    }
+    .support-btn.hidden-desktop {
+        display: block;
+        padding: 10px 0;
+        margin-top: 0;
+        text-align: right;
+        margin-right: 15px;
+    }
+    .support-bar .logo img {
+        display: block;
+        margin: 0 auto;
+    }
+    .footer-area .footer-inner-wrapper .footer-top ul li {
+        display: inline-block;
+        padding: 5px;
+        width: 100px;
+        margin: 7px;
+    }
+    .footer-area .footer-inner-wrapper {
+        padding-bottom: 30px;
+    }
+    .footer-area .footer-inner-wrapper .footer-bottom .widget .widget-body .subscribe-form input[type=submit] {
+        display: block;
+        width: 100%;
+    }
+    .clients-area {
+        padding-bottom: 90px;
+    }
+    .pricing-table-area {
+        padding-bottom: 90px;
+    }
+    .header-area .header-bottom .single-header-bottom-box {
+        margin: 0 -24px;
+    }
+    .features-area .right-content img {
+        margin: 0 auto;
+        display: block;
+    }
+	.pricing-table-area .single-price-plan {
+		max-width: 350px;
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
+	.pricing-table-area .filter-area-left {
+		text-align: center;
+	}
+	.pricing-table-area .filter-area-right {
+		text-align: center;
+    }
+    .menu-none{
+        display:none;
+    }
+}
+
+/* Wide Mobile Layout: 375px. */
+
+@media screen and (max-width: 600px) {
+    .support-right {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .footer-area .footer-inner-wrapper .footer-top ul li {
+        margin: 5px;
+        width: 80px;
+    }
+    .footer-area .footer-inner-wrapper .footer-top ul li:first-child {
+        padding: 5px;
+    }
+    .pricing-table-area .single-price-plan {
+        max-width: 350px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .pricing-table-area .filter-area-right {
+        text-align: center;
+    }
+    .pricing-table-area .filter-area-right h5 {
+        font-size: 14px;
+    }
+    .pricing-table-area .filter-area-right .has-icon select {
+        font-size: 12px;
+    }
+    .pricing-table-area .filter-area-left {
+        text-align: center;
+    }
+    .pricing-table-area .filter-area-left h5 {
+        font-size: 18px;
+    }
+    .pricing-table-area .filter-area-left .details-text {
+        font-size: 14px;
+        padding-left: 15px;
+    }
+    .pricing-table-area .filter-area-left .monthly-value {
+        font-size: 14px;
+        padding-right: 6px;
+    }
+    .pricing-table-area .filter-area-left .details-text.anually-value {
+        font-size: 18px;
+        padding-left: 5px;
+    }
+    .pricing-table-area .filter-area-left .switch {
+        height: 30px;
+    }
+    .switch .slider:before {
+        height: 22px;
+        width: 22px;
+    }
+    .support-right .single-support-box {
+        margin-left: 20px;
+    }
+    .menu-none{
+        display:none;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .pricing-table-area .filter-area-left h5 {
+        font-size: 18px;
+        padding-right: 10px;
+        display: inline-block;
+    }
+    .pricing-table-area .filter-area-left .details-text {
+        display: inline-block;
+        font-size: 16px;
+        padding-left: 10px;
+    }
+    .filter-area-left {
+        text-align: center;
+    }
+    .pricing-table-area .filter-area-right h5 {
+        font-size: 16px;
+    }
+    .pricing-table-area .filter-area-right {
+        text-align: center;
+    }
+    .pricing-table-area .filter-area-left .details-text.anually-value {
+        font-size: 18px;
+    }
+    .features-area .left-content ul li {
+        font-size: 11px;
+    }
+    .clients-area {
+        padding-top: 130px;
+    }
+    #footer-payment-logo {
+        text-align: center;
+    }
+    .support-right .single-support-box {
+        margin-left: 20px;
+    }
+    .menu-none{
+        display:none;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .footer-area .footer-inner-wrapper .footer-top ul li {
+        width: 88px;
+    }
+    .support-right .single-support-box {
+        margin-left: 20px;
+    }
+    .menu-none{
+        display:none;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .footer-area .footer-inner-wrapper .footer-top ul li {
+        width: 115px;
+    }
+    .support-right .single-support-box {
+        margin-left: 20px;
+    }
+    .menu-none{
+        display:none;
+    }
+}
