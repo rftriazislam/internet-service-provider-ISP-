@@ -9,6 +9,7 @@ use Illuminate\Http\Request;
  use App\Poweradmin;
  use App\Http\Controllers\Auth\Session;
  use App\Client;
+ use App\User;
  use app\UserClient;
 class LoginController extends Controller
 {
@@ -86,8 +87,39 @@ class LoginController extends Controller
     {
         return view('auth.login', ['url' => 'client']);
     }
-     
-   
+//----------------------api--------------------
+public function adminapi_show(){
+
+    return User::all();
+
+}
+
+     public function adminapi($id){
+         $p=User::find($id);
+         return response()->json($p,200);
+     }
+     public function admin_store(Request $request)
+     {
+         return User::create($request->all());
+     }
+
+
+     public function admin_api_update(Request $request, $id)
+     {
+         $user = User::findOrFail($id);
+         $user->update($request->all());
+ 
+         return $user;
+     }
+     public function admin_api_delete(Request $request, $id)
+    {
+        $user = User::findOrFail($id);
+        $user->delete();
+
+        return 204;
+    }
+ 
+   //-------------------api------------------------
    
   
 }
